@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,7 +12,7 @@ body {
     text-align: center;
     background: white;
     padding: 20px;
-    border-radius: 8px;
+    border-radius: 12px;  /* Increased border radius for rounder edges */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -28,12 +28,12 @@ h1 {
 }
 
 .option {
-    background-color: #007bff;
+    background-color: #cf1f31;  /* Updated color */
     color: white;
     padding: 15px;
     margin: 10px 0;
     border: none;
-    border-radius: 4px;
+    border-radius: 8px;  /* Increased border radius for rounder edges */
     text-decoration: none;
     font-size: 18px;
     width: 80%;
@@ -42,7 +42,7 @@ h1 {
 }
 
 .option:hover {
-    background-color: #0056b3;
+    background-color: #a71929;  /* Slightly darker shade for hover effect */
 }
 
 @media (min-width: 600px) {
